@@ -239,7 +239,7 @@ struct GameLoop {
         int roll = rand() % 100;
 
         if (roll < 50) {
-            cout << player->getName() << " encounters a goblin, time to attack!" << endl;
+            cout << player->getName() << " encounters a goblin, time to attack! Press a to attack this new enemy or e to exit as a coward.. ";
             
             enemy = new Goblin();
 
@@ -301,7 +301,7 @@ struct GameLoop {
 
         randomEncounter(player);
 
-        cout << "What are you going to do now? Type 'e' to exit or 'a' to attack: " << endl;
+        cout << "What are you going to do now? Type 'e' to exit or 'a' to attack: ";
 
         char attack;
 
@@ -338,7 +338,7 @@ struct GameLoop {
 
                     cout << endl;
                     cout << player->getName() << " has " << player->playerHealth << " health remaining.. " << endl;
-                    cout << "Type a to attack: " << endl;
+                    cout << "Type a to attack: ";
 
                 }
 
