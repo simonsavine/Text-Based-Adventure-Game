@@ -5,6 +5,8 @@ The game starts by asking your name, then prompts the user to input c to start m
 
 Once the adventurer is on the move, he is confronted by enemies. The player has 150 health and 5 damage, with a 25% chance of dealing critical damage (10 dmg).
 
+How to play: simply type a to attack or e to exit when prompted.
+
 Enemies:
 
 - Goblin, a 10 health, 5 damage creature who has a 90% chance of dealing critical damage to the player, doubling his damage output for one hit. He has a 50% chance of appearing and will thus be the most common enemy you will face.
